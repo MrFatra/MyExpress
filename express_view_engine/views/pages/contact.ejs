@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Daftar Contact</h2>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Kelas</th>
+                        <th>No HP</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% contacts.forEach(element => { %>
+                        <tr>
+                            <th>
+                                <%= element.nama %>
+                            </th>
+                            <th>
+                                <%= element.kelas %>
+                            </th>
+                            <td>
+                                <%= element.noHP %>
+                            </td>
+                            <td>
+                                <a href="/contact/<%= element.nama %>" class="badge btn btn-success"><i class="bi bi-info-circle">  Detail</i></a>
+                            </td>
+                        </tr>
+                        <% }) %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

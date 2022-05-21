@@ -1,0 +1,11 @@
+{
+    "name": "restful_api_express",
+    "version": "1.0.0",
+    "description": "node rest api",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ramadhan Fatra",
+    "license": "MIT"
+}

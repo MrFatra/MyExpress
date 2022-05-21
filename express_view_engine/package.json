@@ -1,0 +1,14 @@
+{
+  "name": "express_view_engine",
+  "version": "1.0.0",
+  "description": "membuat view engine ejs di express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramadhan Fatra",
+  "license": "MIT",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
+}
